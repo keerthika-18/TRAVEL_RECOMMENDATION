@@ -1,0 +1,80 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .signin-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .signin-title {
+    color: #6a0dad; /* Purple */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #6a0dad;
+  }
+  
+  .signin-button {
+    width: 100%;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-button:hover {
+    background-color: #4e0b99;
+  }
+  
+  .signup-prompt {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-prompt a {
+    color: #6a0dad;
+    text-decoration: none;
+  }
+  
+  .signup-prompt a:hover {
+    text-decoration: underline;
+  }
+  

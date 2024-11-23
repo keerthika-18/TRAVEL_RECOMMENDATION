@@ -1,0 +1,77 @@
+.review-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-title {
+    color: #6a0dad; /* Purple */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .review-form .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .review-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .review-form input,
+  .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .review-form input:focus,
+  .review-form textarea:focus {
+    outline: none;
+    border-color: #6a0dad;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #4e0b99;
+  }
+  
+  .submitted-reviews {
+    margin-top: 30px;
+  }
+  
+  .submitted-reviews h3 {
+    color: #6a0dad;
+  }
+  
+  .review-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .review-card h4 {
+    margin-bottom: 5px;
+    color: #6a0dad;
+  }
+  
